@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1496778592137" stop="1496778707438" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1496778592644" stop="1496778656686" status="passed">
+            <name>testSMSMessaging</name>
+            <steps>
+                <step start="1496778592801" stop="1496778629743" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778629746" stop="1496778630681" status="passed">
+                    <name>selectOSTab</name>
+                    <title>Select OS tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778630684" stop="1496778631955" status="passed">
+                    <name>selectSMSMessagingTab</name>
+                    <title>Select SMS Messaging tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778634989" stop="1496778645779" status="passed">
+                    <name>sMSDataPopulating[640-02-5967, Lakeacre Technical College]</name>
+                    <title>Populate SMS data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778645781" stop="1496778646541" status="passed">
+                    <name>clickSendButton</name>
+                    <title>Click SEND button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778656543" stop="1496778656614" status="passed">
+                    <name>GetTextFromSMSStatus</name>
+                    <title>Get text SMS status field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.SMSMessagingTest"/>
+                <label name="testMethod" value="testSMSMessaging"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="8620@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496778592644" stop="1496778656686" status="passed">
+            <name>testSMSMessaging</name>
+            <steps>
+                <step start="1496778592801" stop="1496778629743" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778629746" stop="1496778630681" status="passed">
+                    <name>selectOSTab</name>
+                    <title>Select OS tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778630684" stop="1496778631955" status="passed">
+                    <name>selectSMSMessagingTab</name>
+                    <title>Select SMS Messaging tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778634989" stop="1496778645779" status="passed">
+                    <name>sMSDataPopulating[640-02-5967, Lakeacre Technical College]</name>
+                    <title>Populate SMS data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778645781" stop="1496778646541" status="passed">
+                    <name>clickSendButton</name>
+                    <title>Click SEND button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778656543" stop="1496778656614" status="passed">
+                    <name>GetTextFromSMSStatus</name>
+                    <title>Get text SMS status field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.SMSMessagingTest"/>
+                <label name="testMethod" value="testSMSMessaging"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="8620@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496778659591" stop="1496778676656" status="passed">
+            <name>testTextSwitcher</name>
+            <steps>
+                <step start="1496778656708" stop="1496778659559" status="passed">
+                    <name>close</name>
+                    <title>Close App</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778659593" stop="1496778666455" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778666458" stop="1496778667298" status="passed">
+                    <name>selectViewsTab</name>
+                    <title>Select Views tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778667306" stop="1496778674613" status="passed">
+                    <name>scrollTo[TextSwitcher]</name>
+                    <title>Scroll to Text Switcher</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778674615" stop="1496778675335" status="passed">
+                    <name>selectTextSwitcherTab</name>
+                    <title>Select Text Switcher tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778675336" stop="1496778676017" status="passed">
+                    <name>clickNextButtonOnTextSwitcherScreen</name>
+                    <title>Click NEXT button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778676018" stop="1496778676656" status="passed">
+                    <name>GetTextFromCounter</name>
+                    <title>Get text from counter</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.TextSwitcherTest"/>
+                <label name="testMethod" value="testTextSwitcher"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="8620@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496778659591" stop="1496778676656" status="passed">
+            <name>testTextSwitcher</name>
+            <steps>
+                <step start="1496778656708" stop="1496778659559" status="passed">
+                    <name>close</name>
+                    <title>Close App</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778659593" stop="1496778666455" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778666458" stop="1496778667298" status="passed">
+                    <name>selectViewsTab</name>
+                    <title>Select Views tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778667306" stop="1496778674613" status="passed">
+                    <name>scrollTo[TextSwitcher]</name>
+                    <title>Scroll to Text Switcher</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778674615" stop="1496778675335" status="passed">
+                    <name>selectTextSwitcherTab</name>
+                    <title>Select Text Switcher tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778675336" stop="1496778676017" status="passed">
+                    <name>clickNextButtonOnTextSwitcherScreen</name>
+                    <title>Click NEXT button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778676018" stop="1496778676656" status="passed">
+                    <name>GetTextFromCounter</name>
+                    <title>Get text from counter</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.TextSwitcherTest"/>
+                <label name="testMethod" value="testTextSwitcher"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="8620@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496778679173" stop="1496778704916" status="passed">
+            <name>test</name>
+            <steps>
+                <step start="1496778676665" stop="1496778679167" status="passed">
+                    <name>close</name>
+                    <title>Close App</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778679175" stop="1496778685646" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778685649" stop="1496778686589" status="passed">
+                    <name>selectAppTab</name>
+                    <title>Select App tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778686593" stop="1496778687961" status="passed">
+                    <name>selectAlertDialogsTab</name>
+                    <title>Select Alert Dialogs tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778687962" stop="1496778688643" status="passed">
+                    <name>selectTextEntryDialog</name>
+                    <title>Select Text Entry Dialog tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778688655" stop="1496778689601" status="passed">
+                    <name>isDialogDisplayed</name>
+                    <title>Check Text Entry dialog is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778690931" stop="1496778701217" status="passed">
+                    <name>textEntryDialogFormPopulating[Bill Cruickshank, cna4p0nb]</name>
+                    <title>Populate Text Entry dialog</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778701220" stop="1496778704916" status="passed">
+                    <name>clickOKButtonOnTextEntryDialogPopup</name>
+                    <title>Click OK button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.ApiDemosNavigationTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="8620@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496778679173" stop="1496778704916" status="passed">
+            <name>test</name>
+            <steps>
+                <step start="1496778676665" stop="1496778679167" status="passed">
+                    <name>close</name>
+                    <title>Close App</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778679175" stop="1496778685646" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778685649" stop="1496778686589" status="passed">
+                    <name>selectAppTab</name>
+                    <title>Select App tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778686593" stop="1496778687961" status="passed">
+                    <name>selectAlertDialogsTab</name>
+                    <title>Select Alert Dialogs tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778687962" stop="1496778688643" status="passed">
+                    <name>selectTextEntryDialog</name>
+                    <title>Select Text Entry Dialog tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778688655" stop="1496778689601" status="passed">
+                    <name>isDialogDisplayed</name>
+                    <title>Check Text Entry dialog is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778690931" stop="1496778701217" status="passed">
+                    <name>textEntryDialogFormPopulating[Bill Cruickshank, cna4p0nb]</name>
+                    <title>Populate Text Entry dialog</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496778701220" stop="1496778704916" status="passed">
+                    <name>clickOKButtonOnTextEntryDialogPopup</name>
+                    <title>Click OK button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.ApiDemosNavigationTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="8620@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

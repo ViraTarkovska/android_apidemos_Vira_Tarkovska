@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="115285" started-at="2017-06-06T19:49:52Z" finished-at="2017-06-06T19:51:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="115285" started-at="2017-06-06T19:49:52Z" finished-at="2017-06-06T19:51:47Z">
+      <class name="com.qagroup.apidemos.test.ApiDemosNavigationTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.qagroup.apidemos.test.ApiDemosNavigationTest@b16e202]" name="test" duration-ms="25748" started-at="2017-06-06T22:51:19Z" finished-at="2017-06-06T22:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qagroup.apidemos.test.ApiDemosNavigationTest@b16e202]" name="tearDown" is-config="true" duration-ms="2471" started-at="2017-06-06T22:51:44Z" finished-at="2017-06-06T22:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qagroup.apidemos.test.ApiDemosNavigationTest -->
+      <class name="com.qagroup.apidemos.test.TextSwitcherTest">
+        <test-method status="PASS" signature="testTextSwitcher()[pri:0, instance:com.qagroup.apidemos.test.TextSwitcherTest@14fa92af]" name="testTextSwitcher" duration-ms="17088" started-at="2017-06-06T22:50:59Z" finished-at="2017-06-06T22:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextSwitcher -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qagroup.apidemos.test.TextSwitcherTest@14fa92af]" name="tearDown" is-config="true" duration-ms="2506" started-at="2017-06-06T22:51:16Z" finished-at="2017-06-06T22:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qagroup.apidemos.test.TextSwitcherTest -->
+      <class name="com.qagroup.apidemos.test.SMSMessagingTest">
+        <test-method status="PASS" signature="testSMSMessaging()[pri:0, instance:com.qagroup.apidemos.test.SMSMessagingTest@7d04529c]" name="testSMSMessaging" duration-ms="64280" started-at="2017-06-06T22:49:52Z" finished-at="2017-06-06T22:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSMSMessaging -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qagroup.apidemos.test.SMSMessagingTest@7d04529c]" name="tearDown" is-config="true" duration-ms="2854" started-at="2017-06-06T22:50:56Z" finished-at="2017-06-06T22:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qagroup.apidemos.test.SMSMessagingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

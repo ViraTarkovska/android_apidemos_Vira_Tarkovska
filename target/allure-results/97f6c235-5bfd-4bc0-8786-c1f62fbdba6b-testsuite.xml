@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1496342843783" stop="1496342888013" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1496342844043" stop="1496342887734" status="passed">
+            <name>testTextSwitcher</name>
+            <steps>
+                <step start="1496342844201" stop="1496342878995" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496342878996" stop="1496342879682" status="passed">
+                    <name>selectViewsTab</name>
+                    <title>Select Views tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496342879687" stop="1496342886854" status="passed">
+                    <name>scrollTo[TextSwitcher]</name>
+                    <title>Scroll to Text Switcher</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496342886862" stop="1496342887722" status="passed">
+                    <name>selectTextSwitcherTab</name>
+                    <title>Select Text Switcher tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.TextSwitcherTest"/>
+                <label name="testMethod" value="testTextSwitcher"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="9868@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496342844043" stop="1496342887734" status="passed">
+            <name>testTextSwitcher</name>
+            <steps>
+                <step start="1496342844201" stop="1496342878995" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496342878996" stop="1496342879682" status="passed">
+                    <name>selectViewsTab</name>
+                    <title>Select Views tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496342879687" stop="1496342886854" status="passed">
+                    <name>scrollTo[TextSwitcher]</name>
+                    <title>Scroll to Text Switcher</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496342886862" stop="1496342887722" status="passed">
+                    <name>selectTextSwitcherTab</name>
+                    <title>Select Text Switcher tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.TextSwitcherTest"/>
+                <label name="testMethod" value="testTextSwitcher"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="9868@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

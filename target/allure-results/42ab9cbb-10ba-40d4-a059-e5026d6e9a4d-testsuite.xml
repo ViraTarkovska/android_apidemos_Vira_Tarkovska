@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1496417031962" stop="1496417098459" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1496417032280" stop="1496417095785" status="passed">
+            <name>testSMSMessaging</name>
+            <steps>
+                <step start="1496417032463" stop="1496417068353" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496417068354" stop="1496417069147" status="passed">
+                    <name>selectOSTab</name>
+                    <title>Select OS tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496417069148" stop="1496417070604" status="passed">
+                    <name>selectSMSMessagingTab</name>
+                    <title>Select SMS Messaging tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496417073830" stop="1496417084997" status="passed">
+                    <name>sMSDataPopulating[faker.phoneNumber(), Icelyn University]</name>
+                    <title>Populate SMS data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496417084999" stop="1496417085721" status="passed">
+                    <name>clickSendButton</name>
+                    <title>Click SEND button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496417095722" stop="1496417095775" status="passed">
+                    <name>GetTextFromSMSStatus</name>
+                    <title>Get text SMS status field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.SMSMessagingTest"/>
+                <label name="testMethod" value="testSMSMessaging"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="7920@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496417032280" stop="1496417095785" status="passed">
+            <name>testSMSMessaging</name>
+            <steps>
+                <step start="1496417032463" stop="1496417068353" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496417068354" stop="1496417069147" status="passed">
+                    <name>selectOSTab</name>
+                    <title>Select OS tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496417069148" stop="1496417070604" status="passed">
+                    <name>selectSMSMessagingTab</name>
+                    <title>Select SMS Messaging tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496417073830" stop="1496417084997" status="passed">
+                    <name>sMSDataPopulating[faker.phoneNumber(), Icelyn University]</name>
+                    <title>Populate SMS data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496417084999" stop="1496417085721" status="passed">
+                    <name>clickSendButton</name>
+                    <title>Click SEND button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496417095722" stop="1496417095775" status="passed">
+                    <name>GetTextFromSMSStatus</name>
+                    <title>Get text SMS status field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.SMSMessagingTest"/>
+                <label name="testMethod" value="testSMSMessaging"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="7920@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

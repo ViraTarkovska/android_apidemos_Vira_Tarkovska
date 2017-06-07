@@ -1,0 +1,110 @@
+{
+  "uid" : "9ed3b8d29e6b4722",
+  "name" : "test",
+  "title" : "Test",
+  "time" : {
+    "start" : 1496227014956,
+    "stop" : 1496227062324,
+    "duration" : 47368
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "22223dea9e8328e9",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ {
+    "name" : "openMainScreen",
+    "title" : "Open ApiDemos main screen",
+    "time" : {
+      "start" : 1496227015193,
+      "stop" : 1496227052219,
+      "duration" : 37026
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectAppTab",
+    "title" : "Select App tab",
+    "time" : {
+      "start" : 1496227052221,
+      "stop" : 1496227053396,
+      "duration" : 1175
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectAlertDialogs",
+    "title" : "Select Alert Dialogs tab",
+    "time" : {
+      "start" : 1496227053397,
+      "stop" : 1496227054614,
+      "duration" : 1217
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "03f9e9f6-0d4a-4972-9836-418bc8ed88df-attachment.png",
+    "type" : "image/png",
+    "size" : 209298,
+    "uid" : "670b638efa7a97cc"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "tvl-note"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qagroup.apidemos.test.ApiDemosNavigationTest"
+  }, {
+    "name" : "thread",
+    "value" : "5240@tvl-note.main(1)"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  } ],
+  "parameters" : [ ]
+}

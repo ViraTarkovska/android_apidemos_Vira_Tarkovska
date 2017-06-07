@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1496506193649" stop="1496506254953" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1496506194283" stop="1496506252807" status="passed">
+            <name>test</name>
+            <steps>
+                <step start="1496506194552" stop="1496506232938" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506232944" stop="1496506233894" status="passed">
+                    <name>selectAppTab</name>
+                    <title>Select App tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506233897" stop="1496506235239" status="passed">
+                    <name>selectAlertDialogsTab</name>
+                    <title>Select Alert Dialogs tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506235245" stop="1496506236109" status="passed">
+                    <name>selectTextEntryDialog</name>
+                    <title>Select Text Entry Dialog tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506236116" stop="1496506237242" status="passed">
+                    <name>isDialogDisplayed</name>
+                    <title>Check Text Entry dialog is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506238453" stop="1496506249081" status="passed">
+                    <name>textEntryDialogFormPopulating[Lonny Goldner, pg4nasjuaicln8]</name>
+                    <title>Populate Text Entry dialog</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506249086" stop="1496506252798" status="passed">
+                    <name>clickOKButtonOnTextEntryDialogPopup</name>
+                    <title>Click OK button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.ApiDemosNavigationTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="3036@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496506194283" stop="1496506252807" status="passed">
+            <name>test</name>
+            <steps>
+                <step start="1496506194552" stop="1496506232938" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506232944" stop="1496506233894" status="passed">
+                    <name>selectAppTab</name>
+                    <title>Select App tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506233897" stop="1496506235239" status="passed">
+                    <name>selectAlertDialogsTab</name>
+                    <title>Select Alert Dialogs tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506235245" stop="1496506236109" status="passed">
+                    <name>selectTextEntryDialog</name>
+                    <title>Select Text Entry Dialog tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506236116" stop="1496506237242" status="passed">
+                    <name>isDialogDisplayed</name>
+                    <title>Check Text Entry dialog is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506238453" stop="1496506249081" status="passed">
+                    <name>textEntryDialogFormPopulating[Lonny Goldner, pg4nasjuaicln8]</name>
+                    <title>Populate Text Entry dialog</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496506249086" stop="1496506252798" status="passed">
+                    <name>clickOKButtonOnTextEntryDialogPopup</name>
+                    <title>Click OK button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.ApiDemosNavigationTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="3036@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1496413223732" stop="1496413289351" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1496413223961" stop="1496413289138" status="passed">
+            <name>testSMSMessaging</name>
+            <steps>
+                <step start="1496413224153" stop="1496413261061" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496413261063" stop="1496413262473" status="passed">
+                    <name>selectOSTab</name>
+                    <title>Select OS tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496413262474" stop="1496413263955" status="passed">
+                    <name>selectSMSMessagingTab</name>
+                    <title>Select SMS Messaging tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496413267095" stop="1496413278311" status="passed">
+                    <name>sMSDataPopulating[0671705642, Falconholt Technical College]</name>
+                    <title>Populate SMS data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496413278312" stop="1496413279045" status="passed">
+                    <name>clickSendButton</name>
+                    <title>Click SEND button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496413289047" stop="1496413289124" status="passed">
+                    <name>GetTextFromSMSStatus</name>
+                    <title>Get text SMS status field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.SMSMessagingTest"/>
+                <label name="testMethod" value="testSMSMessaging"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="2564@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496413223961" stop="1496413289138" status="passed">
+            <name>testSMSMessaging</name>
+            <steps>
+                <step start="1496413224153" stop="1496413261061" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496413261063" stop="1496413262473" status="passed">
+                    <name>selectOSTab</name>
+                    <title>Select OS tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496413262474" stop="1496413263955" status="passed">
+                    <name>selectSMSMessagingTab</name>
+                    <title>Select SMS Messaging tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496413267095" stop="1496413278311" status="passed">
+                    <name>sMSDataPopulating[0671705642, Falconholt Technical College]</name>
+                    <title>Populate SMS data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496413278312" stop="1496413279045" status="passed">
+                    <name>clickSendButton</name>
+                    <title>Click SEND button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496413289047" stop="1496413289124" status="passed">
+                    <name>GetTextFromSMSStatus</name>
+                    <title>Get text SMS status field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.SMSMessagingTest"/>
+                <label name="testMethod" value="testSMSMessaging"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="2564@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

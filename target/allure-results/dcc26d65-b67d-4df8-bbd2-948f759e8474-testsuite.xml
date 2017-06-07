@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1496413129869" stop="1496413184686" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1496413130112" stop="1496413184597" status="failed">
+            <name>testSMSMessaging</name>
+            <failure>
+                <message>AssertionError: expected [Message sent!] but found []</message>
+                <stack-trace>java.lang.AssertionError: expected [Message sent!] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.qagroup.apidemos.test.SMSMessagingTest.testSMSMessaging(SMSMessagingTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1496413130297" stop="1496413167206" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                </step>
+                <step start="1496413167207" stop="1496413167887" status="passed">
+                    <name>selectOSTab</name>
+                    <title>Select OS tab</title>
+                </step>
+                <step start="1496413167892" stop="1496413169093" status="passed">
+                    <name>selectSMSMessagingTab</name>
+                    <title>Select SMS Messaging tab</title>
+                </step>
+                <step start="1496413172396" stop="1496413182788" status="passed">
+                    <name>sMSDataPopulating[0671705642, Ostbarrow TAFE]</name>
+                    <title>Populate SMS data</title>
+                </step>
+                <step start="1496413182793" stop="1496413183503" status="passed">
+                    <name>clickSendButton</name>
+                    <title>Click SEND button</title>
+                </step>
+                <step start="1496413184504" stop="1496413184555" status="passed">
+                    <name>GetTextFromSMSStatus</name>
+                    <title>Get text SMS status field</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.SMSMessagingTest"/>
+                <label name="testMethod" value="testSMSMessaging"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="9644@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496413130112" stop="1496413184597" status="failed">
+            <name>testSMSMessaging</name>
+            <failure>
+                <message>AssertionError: expected [Message sent!] but found []</message>
+                <stack-trace>java.lang.AssertionError: expected [Message sent!] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.qagroup.apidemos.test.SMSMessagingTest.testSMSMessaging(SMSMessagingTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1496413130297" stop="1496413167206" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                </step>
+                <step start="1496413167207" stop="1496413167887" status="passed">
+                    <name>selectOSTab</name>
+                    <title>Select OS tab</title>
+                </step>
+                <step start="1496413167892" stop="1496413169093" status="passed">
+                    <name>selectSMSMessagingTab</name>
+                    <title>Select SMS Messaging tab</title>
+                </step>
+                <step start="1496413172396" stop="1496413182788" status="passed">
+                    <name>sMSDataPopulating[0671705642, Ostbarrow TAFE]</name>
+                    <title>Populate SMS data</title>
+                </step>
+                <step start="1496413182793" stop="1496413183503" status="passed">
+                    <name>clickSendButton</name>
+                    <title>Click SEND button</title>
+                </step>
+                <step start="1496413184504" stop="1496413184555" status="passed">
+                    <name>GetTextFromSMSStatus</name>
+                    <title>Get text SMS status field</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.SMSMessagingTest"/>
+                <label name="testMethod" value="testSMSMessaging"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="9644@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1496345012547" stop="1496345059430" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1496345012785" stop="1496345059258" status="passed">
+            <name>testTextSwitcher</name>
+            <steps>
+                <step start="1496345012938" stop="1496345048772" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496345048773" stop="1496345049851" status="passed">
+                    <name>selectViewsTab</name>
+                    <title>Select Views tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496345049853" stop="1496345057171" status="passed">
+                    <name>scrollTo[TextSwitcher]</name>
+                    <title>Scroll to Text Switcher</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496345057174" stop="1496345057883" status="passed">
+                    <name>selectTextSwitcherTab</name>
+                    <title>Select Text Switcher tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496345057889" stop="1496345058587" status="passed">
+                    <name>clickNextButtonOnTextSwitcherScreen</name>
+                    <title>Click NEXT button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.TextSwitcherTest"/>
+                <label name="testMethod" value="testTextSwitcher"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="10396@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1496345012785" stop="1496345059258" status="passed">
+            <name>testTextSwitcher</name>
+            <steps>
+                <step start="1496345012938" stop="1496345048772" status="passed">
+                    <name>openMainScreen</name>
+                    <title>Open ApiDemos main screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496345048773" stop="1496345049851" status="passed">
+                    <name>selectViewsTab</name>
+                    <title>Select Views tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496345049853" stop="1496345057171" status="passed">
+                    <name>scrollTo[TextSwitcher]</name>
+                    <title>Scroll to Text Switcher</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496345057174" stop="1496345057883" status="passed">
+                    <name>selectTextSwitcherTab</name>
+                    <title>Select Text Switcher tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1496345057889" stop="1496345058587" status="passed">
+                    <name>clickNextButtonOnTextSwitcherScreen</name>
+                    <title>Click NEXT button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qagroup.apidemos.test.TextSwitcherTest"/>
+                <label name="testMethod" value="testTextSwitcher"/>
+                <label name="host" value="tvl-note"/>
+                <label name="thread" value="10396@tvl-note.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
