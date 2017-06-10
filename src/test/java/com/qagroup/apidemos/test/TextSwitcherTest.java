@@ -21,7 +21,7 @@ public class TextSwitcherTest extends AbstractTest {
 		onViewsScreen.scrollTo(text);
 
 		onTextSwitcherScreen = onViewsScreen.selectTextSwitcherTab();
-		onTextSwitcherScreen.clickNextButtonOnTextSwitcherScreen();
+		onTextSwitcherScreen.clickNextButton();
 
 		assertEquals(onTextSwitcherScreen.GetTextFromCounter(), "1");
 	}

@@ -21,7 +21,7 @@ public class TextSwitcherScreen extends AbstractScreen {
 	}
 
 	@Step("Click 'NEXT' button")
-	public void clickNextButtonOnTextSwitcherScreen() {
+	public void clickNextButton() {
 		nextButtonOnTextSwitcherScreen.click();
 	}
 
